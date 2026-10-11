@@ -1,8 +1,7 @@
 
 # Computer Architecture & MIPS Assembly
-## ব্যক্তিগত শেখার নোট — Setup ও Lesson 01
+## Setup ও Lesson 01
 
-> **শেখার নিয়ম:** প্রতিটি Lesson শেষে একটি ছোট Practice Program লিখব এবং শেখা বিষয়গুলো এই ফাইলে সংরক্ষণ করব। প্রয়োজন অনুযায়ী Diagram যোগ করা হবে।
 
 ---
 
