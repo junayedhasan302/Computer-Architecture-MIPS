@@ -106,12 +106,25 @@ mfhi $t3            # Copy remainder into $t3
 
 ### Division Formula
 
-\[
-\text{Dividend} =
-(\text{Divisor} \times \text{Quotient}) + \text{Remainder}
-\]
+**Dividend = (Divisor × Quotient) + Remainder**
+
+অর্থাৎ,
+
+**ভাজ্য = (ভাজক × ভাগফল) + ভাগশেষ**
+
+উদাহরণ: 27 ÷ 4
+
+27 = (4 × 6) + 3
+
+এখানে:
+- Dividend (ভাজ্য) = 27
+- Divisor (ভাজক) = 4
+- Quotient (ভাগফল) = 6
+- Remainder (ভাগশেষ) = 3
+
 
 শূন্য দিয়ে ভাগ করা যাবে না। `div`-এর divisor শূন্য হলে ফলাফল নির্ভরযোগ্য নয়।
+
 
 ## 6. MARS System Calls
 
