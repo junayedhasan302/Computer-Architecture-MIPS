@@ -162,13 +162,6 @@ Expected output:
 - `move` এক register থেকে অন্য register-এ মান কপি করে।
 - `add` দুটি register-এর মান যোগ করে।
 
-## 8. Lesson 02 Quiz Result
-
-- Question 1: Correct
-- Question 2: Correct
-- Question 3: Correct
-- Score: 3/3
-
 ## Next Lesson
 
 **Lesson 03: MIPS Arithmetic Instructions**
