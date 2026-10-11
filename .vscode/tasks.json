@@ -1,0 +1,27 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run MIPS Assembly",
+      "type": "process",
+      "command": "java",
+      "args": [
+        "-jar",
+        "C:\\tools\\MARS\\Mars4_5.jar",
+        "nc",
+        "${file}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}
