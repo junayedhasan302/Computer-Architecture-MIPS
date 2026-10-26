@@ -39,6 +39,14 @@
 | `$ra` | 31 | `11111` |
 
 ---
+# Remembering Tricks
+## 1. Register Number Table
+- `$zero=0`, `$at=1`, `$v0–$v1=2–3`, `$a0–$a3=4–7` — প্রথমে 1, 1, 2, 4টি।
+- `$t0–$t7 = 8–15` — 8 থেকে শুরু, ধারাবাহিকভাবে 8টি।
+- `$s0–$s7 = 16–23` — 16 থেকে শুরু, ধারাবাহিকভাবে 8টি।
+- `$t8–$t9 = 24–25`, `$k0–$k1 = 26–27` — এরপর 2টি T, 2টি K।
+- `$gp=28`, `$sp=29`, `$fp=30`, `$ra=31` — শেষের 4টি Special Register।
+
 
 ## 2. MIPS R-format Function Code (`funct`) Table
 
@@ -73,15 +81,8 @@
 | 42 | `101010` | `slt` | Set on Less Than |
 | 43 | `101011` | `sltu` | Set on Less Than Unsigned |
 
+
 # Remembering Tricks
-
-## 1. Register Number Table
-- `$zero=0`, `$at=1`, `$v0–$v1=2–3`, `$a0–$a3=4–7` — প্রথমে 1, 1, 2, 4টি।
-- `$t0–$t7 = 8–15` — 8 থেকে শুরু, ধারাবাহিকভাবে 8টি।
-- `$s0–$s7 = 16–23` — 16 থেকে শুরু, ধারাবাহিকভাবে 8টি।
-- `$t8–$t9 = 24–25`, `$k0–$k1 = 26–27` — এরপর 2টি T, 2টি K।
-- `$gp=28`, `$sp=29`, `$fp=30`, `$ra=31` — শেষের 4টি Special Register।
-
 ## 2. R-format Function Code (`funct`) Table
 - `0, 2, 3` → `sll, srl, sra` — Shift instructions; 1 নম্বর code নেই।
 - `4, 6, 7` → `sllv, srlv, srav` — একই Shift pattern, শুধু শেষে `v`।
